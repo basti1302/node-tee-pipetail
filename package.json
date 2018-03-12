@@ -1,0 +1,37 @@
+{
+  "name": "tee-pipefail",
+  "version": "1.0.0",
+  "description": "Duplexes stdout and stderr to a file, like tee, but also forwards the exit code of the original process",
+  "keywords": [
+    "tee",
+    "replacement",
+    "exit code",
+    "pipefail"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basti1302/node-tee-pipetail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/basti1302/node-tee-pipefail/issues"
+  },
+  "homepage": "https://github.com/basti1302/node-tee-pipefail",
+  "directories": {
+    "test": "test"
+  },
+  "main": "index.js",
+  "bin": {
+    "tee-pipefail": "./index.js"
+  },
+  "scripts": {
+    "test": "tap test/*.js --cov"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2",
+    "tap": "^11.1.2"
+  },
+  "author": "Bastian Krol <bastian.krol@web.de>",
+  "license": "ISC"
+}
