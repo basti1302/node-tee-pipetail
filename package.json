@@ -1,6 +1,6 @@
 {
   "name": "tee-pipefail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Duplexes stdout and stderr to a file, like tee, but also forwards the exit code of the original process",
   "keywords": [
     "tee",
